@@ -226,7 +226,7 @@ public class AssignmentGMO {
         AssignmentGMO ob = new AssignmentGMO();
         int ch;
         try{
-            File file = new File("src/Resource/"+args[0]);
+            File file = new File("Resource/"+args[0]);
             byte [] fileBytes = Files.readAllBytes(file.toPath());
             if(fileBytes.length==0){
                 throw new Exception("File Cannot be processed. File is Empty !!");

@@ -1,0 +1,8 @@
+In order to run the code on Linux machine, the only requirement is that the JVM should be installed on the machine.
+
+Input:
+The file to be passed as input should be placed in Resource folder and name of the file should be passes as a Command line Argument to main() method.
+Example : "Test.txt" as an argument to the program
+
+Test Cases:
+A doc as well as pdf file is present in the src folder mentioning different scenarios that have been tested.
